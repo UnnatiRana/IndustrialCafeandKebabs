@@ -1,0 +1,37 @@
+{
+  "name": "industrial-cafe-and-kebabs",
+  "version": "1.0.0",
+  "description": "Secure admin dashboard, POS integration layer, notifications, and Supabase schema for Industrial Cafe and Kebabs.",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc -b"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UnnatiRana/IndustrialCafeandKebabs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/UnnatiRana/IndustrialCafeandKebabs/issues"
+  },
+  "homepage": "https://github.com/UnnatiRana/IndustrialCafeandKebabs#readme",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.106.2",
+    "lucide-react": "^1.16.0",
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.15",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^6.0.2",
+    "typescript": "^6.0.3",
+    "vite": "^8.0.14"
+  }
+}
